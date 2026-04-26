@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-cursive: "Parisienne", cursive;
+
+  --color-rose-bg: #fffaf3;
+  --color-rose-50: #fff5eb;
+  --color-rose-100: #ffecd6;
+  --color-rose-200: #ffdcb4;
+  --color-rose-300: #ffc98c;
+  --color-rose-400: #fdb15e;
+  --color-rose-500: #f4a460;
+  --color-rose-600: #e68d3a;
+  --color-rose-700: #cc701c;
+  --color-rose-800: #9e5316;
+  --color-rose-900: #7a3e0f;
+
+  --color-gold: #c5a017;
+  --color-gold-light: #f9e29f;
+  --color-gold-dark: #8c6d12;
+
+  --color-cream: #fcfbf4;
+}
+
+:root {
+  cursor: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--color-rose-bg);
+  color: var(--color-rose-900);
+  overflow-x: hidden;
+}
+
+/* Custom styles for the envelope flap */
+.envelope-flap {
+  transform-origin: top;
+  transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.envelope-open .envelope-flap {
+  transform: rotateX(180deg);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+.glass {
+  background: rgba(255, 245, 245, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+::selection {
+  background-color: var(--color-rose-700);
+  color: white;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-rose-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 10px;
+}
+
+/* Floral Bloom Animation */
+@keyframes rose-bloom {
+  0% {
+    transform: scale(0) rotate(-10deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.animate-rose-bloom {
+  animation: rose-bloom 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.rose-shadow {
+  filter: drop-shadow(0 10px 15px rgba(185, 28, 28, 0.2));
+}
+
+.text-gradient-rose {
+  background: linear-gradient(to right, var(--color-rose-700), var(--color-rose-900));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
