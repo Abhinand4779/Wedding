@@ -9,7 +9,7 @@ import FamilyDetails from './components/FamilyDetails';
 import RSVP from './components/RSVP';
 import FloatingElements from './components/FloatingElements';
 import CustomCursor from './components/CustomCursor';
-import { Volume2, VolumeX } from 'lucide-react';
+import { Volume2, VolumeX, MessageCircle } from 'lucide-react';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -69,14 +69,33 @@ function App() {
             className="relative z-10"
           >
             {/* Music Toggle UI */}
-            <motion.button
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              onClick={toggleMusic}
-              className="fixed bottom-8 right-8 z-[150] w-12 h-12 glass rounded-full flex items-center justify-center border border-rose-200 text-rose-900 hover:scale-110 transition-transform shadow-lg"
-            >
-              {isPlaying ? <Volume2 size={20} /> : <VolumeX size={20} />}
-            </motion.button>
+            <div className="fixed bottom-8 right-8 z-[150] flex flex-col gap-4">
+              <motion.a
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                href="https://wa.me/919446990357?text=Hello! Regarding the wedding..."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-lg border border-white/20 transition-transform"
+                title="Contact via WhatsApp"
+              >
+                <MessageCircle size={24} />
+              </motion.a>
+
+              <motion.button
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                onClick={toggleMusic}
+                className="w-12 h-12 glass rounded-full flex items-center justify-center border border-rose-200 text-rose-900 shadow-lg"
+                title={isPlaying ? "Mute Music" : "Play Music"}
+              >
+                {isPlaying ? <Volume2 size={20} /> : <VolumeX size={20} />}
+              </motion.button>
+            </div>
 
             <FloatingElements />
 
