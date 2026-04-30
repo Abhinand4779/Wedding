@@ -22,7 +22,7 @@ const RoseBloom = ({ className }) => {
           fill="var(--color-rose-200)"
           className="origin-center"
         />
-        <motion.path
+        <motion.path  
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 0.6 }}
           transition={{ duration: 1.5, delay: 0.4, ease: "easeOut" }}

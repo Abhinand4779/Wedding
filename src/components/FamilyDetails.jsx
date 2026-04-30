@@ -21,7 +21,7 @@ const FamilyDetails = () => {
                 <span className="font-cursive text-6xl text-gold pt-2 select-none">n</span>
               </div>
             </div>
-
+            
             <div className="space-y-6">
               <div className="flex justify-center">
                 <Sparkles className="text-gold w-6 h-6 animate-pulse" />
@@ -29,7 +29,7 @@ const FamilyDetails = () => {
               <h3 className="font-cursive text-7xl text-rose-900 mb-6">Ninan</h3>
               <div className="space-y-4">
                 <p className="font-serif text-[11px] uppercase tracking-[0.5em] text-gold font-bold">Son of</p>
-                <p className="font-sans font-bold text-rose-900 text-xl tracking-tight">Shantu Padayattil & Bindu Shantu</p>
+                <p className="font-sans font-bold text-rose-900 text-xl tracking-tight">Mrs. Bindu Shantu & Mr. Shantu PT</p>
                 <p className="font-serif italic text-rose-800/50 text-sm leading-relaxed max-w-[280px] mx-auto">
                   Padayattil House, Angamaly,<br />Ernakulam
                 </p>
@@ -70,7 +70,7 @@ const FamilyDetails = () => {
               <h3 className="font-cursive text-7xl text-rose-900 mb-6">Anu</h3>
               <div className="space-y-4">
                 <p className="font-serif text-[11px] uppercase tracking-[0.5em] text-gold font-bold">Daughter of</p>
-                <p className="font-sans font-bold text-rose-900 text-xl tracking-tight">Paulachan T P & Litty Paul</p>
+                <p className="font-sans font-bold text-rose-900 text-xl tracking-tight">Mrs. Litty Paul & Mr. Paulachan T.P</p>
                 <p className="font-serif italic text-rose-800/50 text-sm leading-relaxed max-w-[280px] mx-auto">
                   Thekkanath Pulickalan House, Besleham,<br />Karukutty, Ernakulam
                 </p>
