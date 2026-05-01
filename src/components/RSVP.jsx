@@ -16,7 +16,7 @@ const RSVP = () => {
     });
     // Optional: Redirect after a short delay
     setTimeout(() => {
-      window.open("https://wa.me/919446990357?text=I'll be attending the wedding! 🥂", "_blank");
+      window.open("https://wa.me/61468898137?text=I'll be attending the wedding! 🥂", "_blank");
     }, 2000);
   };
 

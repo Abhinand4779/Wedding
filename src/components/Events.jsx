@@ -146,7 +146,7 @@ const Events = () => {
           <EventCard 
             title="The Wedding"
             date="Saturday, July 11, 2026"
-            time="6.30 AM"
+            time="03:30 PM"
             location="St. George Basilica Church, Angamaly"
             mapUrl="https://www.google.com/maps/search/?api=1&query=St.+George+Basilica+Church,+Angamaly"
             delay={0.2}
@@ -154,7 +154,7 @@ const Events = () => {
           <EventCard 
             title="Wedding Reception"
             date="Saturday, July 11, 2026"
-            time="5:30 PM"
+            time="06:30 PM"
             location="St. George Basilica Angamaly, Parish Hall"
             mapUrl="https://www.google.com/maps/search/?api=1&query=St.+George+Basilica+Church,+Angamaly"
             delay={0.4}

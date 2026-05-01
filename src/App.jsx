@@ -119,7 +119,7 @@ function App() {
                   July 11, 2026
                 </p>
                 <p className="font-serif italic text-lg text-cream opacity-90">
-                  “Best wishes as Jobzen Shantu Padayattil”
+                  “Sharing the Happiness Jobzen Shantu Padayattil”
                 </p>
               </div>
             </footer>
