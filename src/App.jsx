@@ -75,7 +75,7 @@ function App() {
                 animate={{ opacity: 1, x: 0 }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://wa.me/919446990357?text=Hello! Regarding the wedding..."
+                href="https://wa.me/61468898137?text=Hello! Regarding the wedding..."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-lg border border-white/20 transition-transform"

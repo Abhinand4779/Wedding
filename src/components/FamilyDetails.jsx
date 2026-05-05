@@ -93,13 +93,13 @@ const FamilyDetails = () => {
               </div>
               <div className="text-center">
                 <p className="font-serif text-[10px] uppercase tracking-widest text-gold mb-1">Call Us</p>
-                <p className="font-sans text-rose-900 font-medium">+91 9446990357</p>
+                <p className="font-sans text-rose-900 font-medium">61468898137</p>
               </div>
             </motion.div>
 
             <motion.a
               whileHover={{ y: -5 }}
-              href="https://wa.me/919446990357?text=Hello! Regarding the wedding..."
+              href="https://wa.me/61468898137?text=Hello! Regarding the wedding..."
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-4"

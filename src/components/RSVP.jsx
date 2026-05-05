@@ -91,7 +91,7 @@ const RSVP = () => {
                 Redirecting you to confirm on WhatsApp...
               </p>
               <a
-                href="https://wa.me/919446990357?text=I'll be attending the wedding! 🥂"
+                href="https://wa.me/61468898137?text=I'll be attending the wedding! 🥂"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-gold font-serif uppercase tracking-widest text-[10px] font-bold border-b border-gold pb-1 hover:text-rose-900 hover:border-rose-900 transition-colors"
