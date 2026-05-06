@@ -21,7 +21,7 @@ const FamilyDetails = () => {
                 <span className="font-cursive text-6xl text-gold pt-2 select-none">n</span>
               </div>
             </div>
-            
+
             <div className="space-y-6">
               <div className="flex justify-center">
                 <Sparkles className="text-gold w-6 h-6 animate-pulse" />
@@ -38,7 +38,7 @@ const FamilyDetails = () => {
           </motion.div>
 
           {/* Infinity Symbol */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
