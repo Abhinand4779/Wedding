@@ -29,7 +29,7 @@ const FamilyDetails = () => {
               <h3 className="font-cursive text-7xl text-rose-900 mb-6">Ninan</h3>
               <div className="space-y-4">
                 <p className="font-serif text-[11px] uppercase tracking-[0.5em] text-gold font-bold">Son of</p>
-                <p className="font-sans font-bold text-rose-900 text-xl tracking-tight">Mrs. Bindu Shantu & Mr. Shantu PT</p>
+                <p className="font-sans font-bold text-rose-900 text-xl tracking-tight">Mrs. Bindu Shantu & Mr. Shantu Padayattil</p>
                 <p className="font-serif italic text-rose-800/50 text-sm leading-relaxed max-w-[280px] mx-auto">
                   Padayattil House, Angamaly,<br />Ernakulam
                 </p>
