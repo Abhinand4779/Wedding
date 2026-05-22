@@ -110,7 +110,7 @@ const Hero = () => {
             <div className="h-[1px] w-24 bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="font-serif text-rose-500 uppercase tracking-[0.6em] text-[12px] opacity-80">
-            St. George Basilica Church, Angamaly
+            LA Mirage Convention Center, Koratty, Ernakulam
           </p>
         </div>
       </div>

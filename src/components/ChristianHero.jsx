@@ -62,21 +62,21 @@ const ChristianHero = () => {
       {/* Hero Images Grid */}
       <div className="absolute inset-0 flex justify-between items-center px-4 md:px-20 z-10 opacity-30 blur-[2px] md:opacity-80 md:blur-none pointer-events-none">
         <div className="hero-image-left hero-image relative w-[40vw] md:w-[25vw] h-[60vh] md:h-[70vh] rounded-t-full overflow-hidden shadow-2xl border-4 border-white transform -translate-y-10">
-          <img 
-            src="/media__1776859865552.jpg" 
-            alt="Ninan and Anu" 
+          <img
+            src="/media__1776859865552.jpg"
+            alt="Ninan and Anu"
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-[#b91c1c]/20 mix-blend-overlay"></div>
         </div>
 
         <div className="hero-image-right hero-image relative w-[40vw] md:w-[25vw] h-[60vh] md:h-[70vh] rounded-t-full overflow-hidden shadow-2xl border-4 border-white transform translate-y-20">
-          <img 
-            src="/media__1776859894044.jpg" 
-            alt="Ninan and Anu Celebration" 
+          <img
+            src="/media__1776859894044.jpg"
+            alt="Ninan and Anu Celebration"
             className="absolute inset-0 w-full h-full object-cover object-top"
           />
-           <div className="absolute inset-0 bg-[#d4af37]/10 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-[#d4af37]/10 mix-blend-overlay"></div>
         </div>
       </div>
 
@@ -90,7 +90,7 @@ const ChristianHero = () => {
           </span>
           <div className="w-24 h-[1px] bg-[#C5A017] mx-auto mt-8 opacity-40" />
         </div>
-        
+
         <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-16 mix-blend-multiply">
           <div className="reveal-text">
             <h1 className="font-cursive text-[5.5rem] sm:text-[6rem] md:text-[14rem] text-rose-900 leading-[0.8] md:leading-[0.6] drop-shadow-sm">
@@ -110,7 +110,7 @@ const ChristianHero = () => {
             </h1>
           </div>
         </div>
-        
+
         <div className="reveal-text mt-12 md:mt-24 space-y-4 md:space-y-8 bg-cream/80 backdrop-blur-md p-6 md:p-8 rounded-[2rem] md:rounded-full mx-auto shadow-[0_8px_30px_rgba(122,62,15,0.08)] border border-rose-100 w-[90%] md:w-auto inline-block">
           <div className="flex items-center justify-center gap-4 md:gap-12">
             <div className="hidden md:block h-[1px] w-16 md:w-32 bg-gradient-to-r from-transparent via-gold to-transparent" />
@@ -118,12 +118,12 @@ const ChristianHero = () => {
             <div className="hidden md:block h-[1px] w-16 md:w-32 bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="font-serif text-rose-800 uppercase tracking-[0.2em] md:tracking-[0.8em] text-[8px] md:text-[14px] font-medium pt-2 md:pt-4">
-            St. George Basilica Church, Angamaly
+            LA Mirage Convention Center, Koratty, Ernakulam
           </p>
         </div>
       </div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 2 }}
@@ -131,9 +131,9 @@ const ChristianHero = () => {
       >
         <span className="font-serif text-[8px] md:text-[10px] uppercase tracking-[0.4em] md:tracking-[0.6em] text-[#C5A017] whitespace-nowrap">Begin the Journey</span>
         <motion.div
-           animate={{ y: [0, 15, 0] }}
-           transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut" }}
-           className="w-[1px] h-20 bg-gradient-to-b from-[#C5A017] to-transparent"
+          animate={{ y: [0, 15, 0] }}
+          transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut" }}
+          className="w-[1px] h-20 bg-gradient-to-b from-[#C5A017] to-transparent"
         />
       </motion.div>
     </section>
