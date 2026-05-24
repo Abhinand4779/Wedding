@@ -155,8 +155,8 @@ const Events = () => {
             title="Wedding Reception"
             date="Saturday, July 11, 2026"
             time="06:30 PM"
-            location="St. George Basilica Angamaly, Parish Hall"
-            mapUrl="https://www.google.com/maps/search/?api=1&query=St.+George+Basilica+Church,+Angamaly"
+            location="LA Mirage Convention Center, Koratty, Ernakulam"
+            mapUrl="https://maps.app.goo.gl/CC9hKYoSnRGakRYi7?g_st=iw"
             delay={0.4}
           />
         </div>
